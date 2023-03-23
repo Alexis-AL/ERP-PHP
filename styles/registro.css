@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;700&display=swap');
+
+:root{
+    /*Paleta de colores*/
+    --color1: #1A3873;
+    --color2: #0477BF;
+    --color3: #66ADD9;
+    --color4: #F2F2F2;
+    --color5: #262626;
+
+    /*Tipografia*/
+    --fuente-principal:'IBM Plex Serif', serif;
+    --fuente-secundaria:'Zilla Slab', serif;
+}
+
+*{
+    font-family:var(--fuente-secundaria);
+}
+
+table{
+    font-size:large;
+    background-color:#eff7ff;
+}
+
+#nameEmpresa{
+    font-weight: 3000;
+    font-size: 4vw;
+    line-height: 5px;
+    color: var(--color1);
+}
+
+body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+h2{
+    background-color: var(--color2);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    color: var(--color4);
+    padding: 5px;
+
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+input[type="submit"]{
+    background-color: #cecece;
+    border: none;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    float: right;
+    margin-top: 3%;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 8px var(--color5);
+    cursor: pointer;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+.input-text{
+    width: 50%;
+    height: 10%;
+}
+::placeholder {
+    color: gray;
+    opacity: .5;
+    font-size: 2vh;
+}
+input[type="date"]{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+}
+select{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    
+}
+label{
+    margin-block-end: 1% ;
+    margin-top: 2%;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+  .form-control{
+    width: 50%;
+}
+
+  .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+  }
+
+
+

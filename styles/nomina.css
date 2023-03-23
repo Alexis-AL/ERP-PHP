@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;700&display=swap');
+
+:root{
+    /*Paleta de colores*/
+    --color1: #1A3873;
+    --color2: #0477BF;
+    --color3: #66ADD9;
+    --color4: #F2F2F2;
+    --color5: #262626;
+
+    /*Tipografia*/
+    --fuente-principal:'IBM Plex Serif', serif;
+    --fuente-secundaria:'Zilla Slab', serif;
+}
+
+*{
+    font-family:var(--fuente-secundaria);
+}
+
+table{
+    font-size:large;
+    background-color:#eff7ff;
+}
+
+#nameEmpresa{
+    font-weight: 3000;
+    font-size: 4vw;
+    line-height: 5px;
+    color: var(--color1);
+}
+
+body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.worker, .liquidacion, .percep-Sal, .percep-NoSal, .devengos, .deducciones, .dineroAPercibir, .firmasYSellos{
+    
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.empresa{
+    table-layout: fixed;
+    width: 30%;
+    border-collapse: collapse;
+    float: left;
+    background-color: white;
+}
+
+#nomina{
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    font-size: 2vw;
+    color: var(--color1);
+}
+#totalDays{
+    text-align: right;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.line{
+    border-top: 2px solid black;
+    width: 50%;
+}
+.totales{
+    border: 1px dotted rgb(207, 226, 207);
+}
+tfoot th, #percepNo, #percepSal, .encabezadoTable{
+    text-align: left;
+}
+
+h2{
+    background-color: var(--color2);
+    border-radius: 17px;
+    color: var(--color4);
+    padding: 5px;
+}
+
+.encabezadoTable{
+    background-color:#dfeefd;
+}
+
+.dineroAPercibir{
+    background-color: rgb(223, 223, 230);
+    border-radius: 14x;
+}
+
+.dineroAPercibir th{
+    text-align: left;
+}
+
+.firma{
+    justify-content: center;
+    width: 50%;
+}
+
+.firmasYSellos{
+    margin-bottom: 50px;
+    border: 2px solid #e3eef8;
+    border-top-style: hidden;
+}
+img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="submit"]{
+    background-color: #cecece;
+    border: none;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    float:right;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 8px var(--color5);
+    cursor: pointer;
+}
+

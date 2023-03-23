@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;700&display=swap');
+
+:root{
+    /*Paleta de colores*/
+    --color1: #1A3873;
+    --color2: #0477BF;
+    --color3: #66ADD9;
+    --color4: #F2F2F2;
+    --color5: #262626;
+
+    /*Tipografia*/
+    --fuente-principal:'IBM Plex Serif', serif;
+    --fuente-secundaria:'Zilla Slab', serif;
+}

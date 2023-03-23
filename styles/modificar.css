@@ -1,0 +1,24 @@
+
+input{
+    border: 1px solid #4FC3A1;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.main-content{
+    padding: 20px;
+}
+
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: grey;
+    border: 1px solid #4FC3A1;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
